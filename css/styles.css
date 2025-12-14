@@ -10,11 +10,11 @@ body {
 
 .gallery {
   list-style: none;
-  padding: 0;
-  margin: 0 auto;
+  padding: 24px;
+  margin: 0;
 
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
   gap: 24px;
   justify-content: center;
 }
